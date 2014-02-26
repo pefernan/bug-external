@@ -1,0 +1,52 @@
+
+<form id="2063420867">
+<property name="subject" value=""/>
+<property name="name" value="fillValues-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="animal_age" type="InputTextPrimitiveInteger" id="1103616945">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;age (animal)quot;"/>
+<property name="inputBinding" value="in_animal/age"/>
+<property name="outputBinding" value="out_animal/age"/>
+<property name="fieldClass" value="int"/>
+</field>
+<field position="1" name="animal_name" type="InputText" id="1947876103">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;name (animal)quot;"/>
+<property name="inputBinding" value="in_animal/name"/>
+<property name="outputBinding" value="out_animal/name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="owner_age" type="InputTextInteger" id="268210492">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;age (owner)quot;"/>
+<property name="inputBinding" value="in_owner/age"/>
+<property name="outputBinding" value="out_owner/age"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="3" name="owner_name" type="InputText" id="721065465">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;name (owner)quot;"/>
+<property name="inputBinding" value="in_owner/name"/>
+<property name="outputBinding" value="out_owner/name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="owner_pet" type="Subform" id="1694576174">
+<property name="fieldRequired" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;pet (owner)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="inputBinding" value="in_owner/pet"/>
+<property name="outputBinding" value="out_owner/pet"/>
+<property name="defaultSubform" value="animal.form"/>
+<property name="fieldClass" value="java.lang.Object"/>
+</field>
+<dataHolder inputId="in_animal" name="#FF54A7" type="dataModelerEntry" outId="out_animal" value="org.jbpm.test.Animal" id="animal"/>
+<dataHolder inputId="in_owner" name="#0000A0" type="dataModelerEntry" outId="out_owner" value="org.jbpm.dependencia.Owner" id="owner"/>
+</form>
